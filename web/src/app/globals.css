@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Osnovna podešavanja stranice */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8f3f1;
+  color: #4e403d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ako korisnik ne želi animacije, poštujemo to podešavanje */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
